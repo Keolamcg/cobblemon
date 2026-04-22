@@ -1,0 +1,18 @@
+{
+    "implemented": true,
+    "name":         "sample",
+    "labels":       ["custom"],
+    "height":       10,
+    "weight":       100,
+    "primaryType":  "normal",
+
+    "baseStats": {
+        "hp":               50,
+        "attack":           50,
+        "defence":          50,
+        "special_attack":   50,
+        "special_defence":  50,
+        "speed":            50
+    }
+
+}
