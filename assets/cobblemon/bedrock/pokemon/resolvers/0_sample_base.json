@@ -4,7 +4,7 @@
     "variations":[
         {
         "aspects":  [],
-        "poser":    "cobblemon:sampleposer",
+        "poser":    "cobblemon:sample",
         "model":    "cobblemon:mcsample.geo",
         "texture":  "cobblemon:textures/pokemon/sample/mcsample.png",
         "layers":   []

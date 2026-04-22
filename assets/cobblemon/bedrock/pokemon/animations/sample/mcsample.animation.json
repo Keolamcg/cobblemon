@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"gound_idle": {
+		"ground_idle": {
 			"animation_length": 3,
 			"bones": {
 				"mc": {
