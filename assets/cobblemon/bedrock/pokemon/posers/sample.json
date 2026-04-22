@@ -16,7 +16,7 @@
                 "PROFILE"
             ],
             "animations": [
-                "bedrock(sample, ground_idle)"
+                "bedrock(sampleposer, ground_idle)"
             ]
         },
         "walking": {
@@ -26,7 +26,7 @@
                 "WALK"
             ],
             "animations": [
-                "bedrock(sample, ground_walk)"
+                "bedrock(sampleposer, ground_walk)"
             ]
         }
     }
