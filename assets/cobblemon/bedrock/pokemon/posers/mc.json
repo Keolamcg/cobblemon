@@ -14,7 +14,9 @@
         "PORTRAIT",
         "PROFILE"
       ],
-      "animations": []
+      "animations": [ 
+        "bedrock(mc, ground_idle)"
+      ]
     },
     "walking": {
       "poseName": "walking",
@@ -22,7 +24,9 @@
       "poseTypes": [
         "WALK"
       ],
-      "animations": []
+      "animations": [
+        "bedrock(mc, ground_walk)"
+      ]
     }
   }
 }

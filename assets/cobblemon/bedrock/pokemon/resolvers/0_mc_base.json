@@ -5,8 +5,8 @@
     {
       "aspects": [],
       "poser": "cobblemon:mc",
-      "model": "cobblemon:mcsample.geo",
-      "texture": "cobblemon:textures/pokemon/sample/texture2.png",
+      "model": "cobblemon:mc.geo",
+      "texture": "cobblemon:textures/pokemon/mc/texture2.png",
       "layers": []
     }
   ]
