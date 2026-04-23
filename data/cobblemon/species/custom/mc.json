@@ -5,6 +5,7 @@
     "height":       10,
     "weight":       100,
     "primaryType":  "normal",
+    "baseScale":    1.0,
 
     "baseStats": {
         "hp":               50,
