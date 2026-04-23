@@ -1,13 +1,13 @@
 {
-    "species": "cobblemon:sample",
-    "order": 0,
-    "variations":[
-        {
-        "aspects":  [],
-        "poser":    "cobblemon:sample",
-        "model":    "cobblemon:mcsample.geo",
-        "texture":  "cobblemon:textures/pokemon/sample/mcsample.png",
-        "layers":   []
-        }
-    ]
+  "species": "cobblemon:mc",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:mc",
+      "model": "cobblemon:mcsample.geo",
+      "texture": "cobblemon:textures/pokemon/sample/texture2.png",
+      "layers": []
+    }
+  ]
 }

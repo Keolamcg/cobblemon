@@ -1,6 +1,6 @@
 {
     "implemented": true,
-    "name":         "sample",
+    "name":         "mc",
     "labels":       ["custom"],
     "height":       10,
     "weight":       100,
