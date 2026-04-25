@@ -1,0 +1,15 @@
+{
+    "species": "cobblemon:grogu",
+    "order": 0,
+    "variations":[
+        {
+            "aspects":  [],
+            "poser":    "cobblemon:grogu",
+            "model":    "cobblemon:grogu.geo",
+            "texture":  "cobblemon:textures/pokemon/grogu/grogutexture.png",
+            "layers":   []
+        }
+    ]
+
+
+}

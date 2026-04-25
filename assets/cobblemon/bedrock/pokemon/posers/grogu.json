@@ -1,5 +1,5 @@
 {
-  "head": "mc",
+  "head": "head",
   "portraitScale": 1.0,
   "portraitTranslation": [0, 0, 0],
   "profileScale": 1.0,
@@ -15,7 +15,7 @@
         "PROFILE"
       ],
       "animations": [ 
-        
+        "bedrock(grogu, ground_idle2)"
       ]
     },
     "walking": {
@@ -25,7 +25,7 @@
         "WALK"
       ],
       "animations": [
-        
+        "bedrock(grogu, ground_walk_test)"
       ]
     }
   }
