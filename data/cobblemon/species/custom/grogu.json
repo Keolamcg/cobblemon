@@ -1,11 +1,22 @@
 { 
-    "implemented": true,
+    "implemented":  true,
     "name":         "grogu",
     "labels":       ["custom"],
-    "height":       10,
-    "weight":       100,
+    "pokedex":      [
+        "cobblemon.species.grogu.desc1",
+        "cobblemon.species.grogu.desc2"
+    ],
+    "height":       3,
+    "weight":       20,
+
     "primaryType":  "normal",
-    "baseScale":    1.0,
+
+    "baseScale":    0.5,
+    "hitbox": {
+        "width":    0.4,
+        "height":   0.6,
+        "fixed":    false
+    },
 
     "baseStats": {
         "hp":               50,

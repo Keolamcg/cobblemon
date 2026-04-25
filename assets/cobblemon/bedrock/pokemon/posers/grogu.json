@@ -4,7 +4,9 @@
   "portraitTranslation": [0, 0, 0],
   "profileScale": 1.0,
   "profileTranslation": [0, 0, 0],
+
   "poses": {
+
     "standing": {
       "poseName": "standing",
       "transformTicks": 10,
@@ -15,9 +17,10 @@
         "PROFILE"
       ],
       "animations": [ 
-        "bedrock(grogu, ground_idle2)"
+        "bedrock(grogu, ground_idle)"
       ]
     },
+
     "walking": {
       "poseName": "walking",
       "transformTicks": 10,
@@ -25,8 +28,9 @@
         "WALK"
       ],
       "animations": [
-        "bedrock(grogu, ground_walk_test)"
+        "bedrock(grogu, ground_walk)"
       ]
     }
+
   }
 }
