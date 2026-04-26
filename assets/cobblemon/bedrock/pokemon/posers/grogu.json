@@ -30,6 +30,15 @@
       "animations": [
         "bedrock(grogu, ground_walk)"
       ]
+    },
+
+    "sleeping": {
+      "poseName": "sleeping",
+      "transformTicks": 10,
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "animations": []
     }
 
   }

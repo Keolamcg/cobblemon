@@ -6,18 +6,10 @@
         "cobblemon.species.grogu.desc1",
         "cobblemon.species.grogu.desc2"
     ],
-    "height":       3,
-    "weight":       20,
-
-    "primaryType":  "normal",
-
-    "baseScale":    0.5,
-    "hitbox": {
-        "width":    0.4,
-        "height":   0.6,
-        "fixed":    false
-    },
-
+    "height":               3,
+    "weight":               20,
+    
+    "primaryType":          "psychic",
     "baseStats": {
         "hp":               50,
         "attack":           50,
@@ -25,6 +17,60 @@
         "special_attack":   50,
         "special_defence":  50,
         "speed":            50
+    },
+    "catchRate":            45,
+    "maleRatio":            1,
+    "baseExperienceYield":  270,
+    "experienceGroup":      "medium_fast",
+    "eggCycles":            25,
+    "eggGroups":            ["undiscovered"],
+    "baseFriendship":       30,
+    "evYield":              {"hp": 1},
+
+    "moves": [
+        "1:seismictoss",
+        "1:telekinesis",
+        "1:confusion"
+    ],
+    "abilities": [
+        "gluttony"
+    ],
+
+    "shoulderMountable":        true,
+    "baseScale":                0.5,
+    "hitbox": {
+        "width":                0.8,
+        "height":               1.2,
+        "fixed":                false
+    },
+    "drops": {
+        "amount":               "2",
+        "entries":[
+            {
+            "item":             "minecraft:frogspawn",
+            "quantityRange":    "1",
+            "percentage":       85
+            },
+            {
+            "item":             "minecraft:cookie",
+            "quantityRange":    "1",
+            "percentage":       85
+            }
+        ]
+    },
+    "behaviour":{
+        "resting":{
+            "canSleep":         true,
+            "willSleepOnBed":   true
+        },
+        "moving":{
+            "canLook":          false
+        },
+        "combat":{
+            "willDefendSelf":   true,
+            "willDefendOwner":  true,
+            "willFlee":         true
+        }
     }
 
 }
