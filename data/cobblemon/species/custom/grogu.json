@@ -1,10 +1,10 @@
 { 
-    "implemented":  true,
-    "name":         "grogu",
-    "labels":       ["custom"],
+    "implemented":              true,
+    "name":                     "grogu",
+    "labels":                   ["custom"],
+    "nationalPokedexNumber":    1026,
     "pokedex":      [
-        "cobblemon.species.grogu.desc1",
-        "cobblemon.species.grogu.desc2"
+        "cobblemon.species.grogu.desc"
     ],
     "height":               3,
     "weight":               20,
@@ -64,7 +64,7 @@
             "willSleepOnBed":   true
         },
         "moving":{
-            "canLook":          false
+            "canLook":          true
         },
         "combat":{
             "willDefendSelf":   true,

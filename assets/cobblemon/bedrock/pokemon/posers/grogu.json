@@ -1,13 +1,14 @@
 {
   "head": "head",
-  "portraitScale": 1.0,
-  "portraitTranslation": [0, 0, 0],
-  "profileScale": 1.0,
-  "profileTranslation": [0, 0, 0],
+  "portraitScale": 0.7,
+  "portraitTranslation": [0.0, 0.50, 0],
+  "profileScale": 0.7,
+  "profileTranslation": [0.0, 0.50, 0],
 
   "animations": {
     "recoil": "q.bedrock_stateful('grogu', 'recoil')",
-    "special": "q.bedrock_primary('grogu', 'special')"
+    "special": "q.bedrock_primary('grogu', 'special')",
+    "faint": "q.bedrock_primary('grogu', 'faint')"
   },
 
   "poses": {
@@ -22,6 +23,7 @@
         "PROFILE"
       ],
       "animations": [ 
+        "q.look('head')",
         "bedrock(grogu, ground_idle)"
       ]
     },
@@ -33,6 +35,7 @@
         "WALK"
       ],
       "animations": [
+        "q.look('head')",
         "bedrock(grogu, ground_walk)"
       ]
     },
