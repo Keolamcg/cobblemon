@@ -43,7 +43,9 @@
       "poseTypes": [
         "SLEEP"
       ],
-      "animations": []
+      "animations": [
+        "bedrock(grogu, sleep)"
+      ]
     }
 
   }
