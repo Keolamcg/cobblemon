@@ -5,6 +5,11 @@
   "profileScale": 1.0,
   "profileTranslation": [0, 0, 0],
 
+  "animations": {
+    "recoil": "q.bedrock_stateful('grogu', 'recoil')",
+    "special": "q.bedrock_primary('grogu', 'special')"
+  },
+
   "poses": {
 
     "standing": {
