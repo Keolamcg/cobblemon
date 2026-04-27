@@ -11,12 +11,12 @@
     
     "primaryType":          "psychic",
     "baseStats": {
-        "hp":               50,
-        "attack":           50,
-        "defence":          50,
-        "special_attack":   50,
-        "special_defence":  50,
-        "speed":            50
+        "hp":               70,
+        "attack":           5,
+        "defence":          125,
+        "special_attack":   60,
+        "special_defence":  150,
+        "speed":            90
     },
     "catchRate":            45,
     "maleRatio":            1,
@@ -30,7 +30,14 @@
     "moves": [
         "1:seismictoss",
         "1:telekinesis",
-        "1:confusion"
+        "1:confusion",
+        "1:tackle",
+        "24:Kinesis",
+        "26:Barrier",
+        "30:Extrasensory",
+        "36:storedpower",
+        "40:glitzyglow",
+        "48:psychic"
     ],
     "abilities": [
         "gluttony"
