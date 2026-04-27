@@ -2,7 +2,7 @@
     "implemented":              true,
     "name":                     "grogu",
     "labels":                   ["custom"],
-    "nationalPokedexNumber":    1026,
+    "nationalPokedexNumber":    1808,
     "pokedex":      [
         "cobblemon.species.grogu.desc"
     ],

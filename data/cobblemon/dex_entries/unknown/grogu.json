@@ -1,0 +1,13 @@
+{
+    "id":               "cobblemon:grogu",
+    "speciesId":        "cobblemon:grogu",
+    "displayAspects":   [],
+    "conditionAspects": [],
+    "forms": [
+        {
+        "displayForm": "Normal",
+        "unlockForms": ["Normal"]
+        }
+    ],
+    "variations": []
+}
