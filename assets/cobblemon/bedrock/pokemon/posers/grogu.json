@@ -1,15 +1,16 @@
 {
   "head": "head",
   "portraitScale": 0.7,
-  "portraitTranslation": [0.0, 0.62, 0],
+  "portraitTranslation": [-0.02, 0.70, 0],
   "profileScale": 0.7,
-  "profileTranslation": [0.0, 0.62, 0],
+  "profileTranslation": [-0.02, 0.70, 0],
 
   "animations": {
-    "recoil":   "q.bedrock_stateful('grogu', 'recoil')",
-    "special":  "q.bedrock_primary('grogu', 'special')",
-    "faint":    "q.bedrock_primary('grogu', 'faint')",
-    "physical": "q.bedrock_primary('grogu', 'physical')"
+    "recoil":   "q.bedrock_stateful('grogu',  'recoil')",
+    "cry":      "q.bedrock_primary('grogu',   'cry')",
+    "special":  "q.bedrock_primary('grogu',   'special')",
+    "faint":    "q.bedrock_primary('grogu',   'faint')",
+    "physical": "q.bedrock_primary('grogu',   'physical')"
   },
 
   "poses": {
@@ -17,56 +18,30 @@
     "standing": {
       "poseName": "standing",
       "transformTicks": 10,
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
-      "animations": [ 
-        "q.look('head')",
-        "q.bedrock('grogu', 'ground_idle')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('grogu', 'blink')"
-      ]
+      "poseTypes":  [ "STAND","NONE","PORTRAIT","PROFILE"],
+      "animations": [ "q.look('head')", "q.bedrock('grogu', 'ground_idle')" ],
+      "quirks":     [ "q.bedrock_quirk('grogu', 'blink')" ]
     },
 
     "walking": {
       "poseName": "walking",
       "transformTicks": 10,
-      "poseTypes": [
-        "WALK"
-      ],
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('grogu', 'ground_walk')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('grogu', 'blink')"
-      ]
+      "poseTypes":  [ "WALK" ],
+      "animations": [ "q.look('head')", "q.bedrock('grogu', 'ground_walk')"],
+      "quirks":     [ "q.bedrock_quirk('grogu', 'blink')"]
     },
 
     "sleeping": {
       "poseName": "sleeping",
       "transformTicks": 10,
-      "poseTypes": [
-        "SLEEP"
-      ],
-      "animations": [
-        "q.bedrock('grogu', 'sleep')"
-        
-      ]
+      "poseTypes":  [ "SLEEP"],
+      "animations": [ "q.bedrock('grogu', 'sleep')"]
     },
 
     "shoulder_left": {
-     "poseTypes": ["SHOULDER_LEFT"],
-     "animations": [
-       "q.bedrock('grogu', 'shoulder_left')"
-     ],
-     "quirks": [
-      "q.bedrock_quirk('grogu', 'blink')"
-    ]
+     "poseTypes":   ["SHOULDER_LEFT"],
+     "animations":  [ "q.bedrock('grogu', 'shoulder_left')"],
+     "quirks":      [ "q.bedrock_quirk('grogu', 'blink')"]
    }
   }
 }

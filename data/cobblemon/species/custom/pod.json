@@ -57,6 +57,12 @@
         ]
     },
     "behaviour":{
+        "look":{
+            "speed": 0.2
+        },
+        "wander":{
+            
+        },
         "resting":{
             "canSleep":         false,
             "willSleepOnBed":   false
