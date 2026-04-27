@@ -49,7 +49,14 @@
       "animations": [
         "bedrock(grogu, sleep)"
       ]
-    }
+    },
+
+    "shoulder_left": {
+     "poseTypes": ["SHOULDER_LEFT"],
+     "animations": [
+       "q.bedrock('grogu', 'shoulder_left')"
+     ]
+   }
 
   }
 }
