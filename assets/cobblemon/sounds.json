@@ -1,0 +1,8 @@
+{
+    "pokemon.grogu.ambient": {
+        "sounds": ["pokemon/grogu/patu"]
+    },
+    "pokemon.grogu.cry": {
+        "sounds": ["pokemon/grogu/patu"]
+    }
+}

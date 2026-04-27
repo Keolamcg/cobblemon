@@ -1,0 +1,13 @@
+{
+    "id":               "cobblemon:pod",
+    "speciesId":        "cobblemon:pod",
+    "displayAspects":   [],
+    "conditionAspects": [],
+    "forms": [
+        {
+        "displayForm": "Normal",
+        "unlockForms": ["Normal"]
+        }
+    ],
+    "variations": []
+}

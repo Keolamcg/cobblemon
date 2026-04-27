@@ -1,0 +1,15 @@
+{
+    "species": "cobblemon:pod",
+    "order": 0,
+    "variations":[
+        {
+            "aspects":  [],
+            "poser":    "cobblemon:pod",
+            "model":    "cobblemon:pod.geo",
+            "texture":  "cobblemon:textures/pokemon/pod/podtexture.png",
+            "layers":   []
+        }
+    ]
+
+
+}

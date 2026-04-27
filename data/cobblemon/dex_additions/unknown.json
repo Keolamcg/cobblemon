@@ -1,4 +1,7 @@
 {
     "dexId":    "cobblemon:unknown",
-    "entries":  ["cobblemon:grogu"]
+    "entries":  [
+        "cobblemon:grogu",
+        "cobblemon:pod"
+    ]
 }

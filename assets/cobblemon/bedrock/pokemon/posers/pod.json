@@ -1,0 +1,23 @@
+{
+  "head": "pod",
+  "portraitScale": 1,
+  "portraitTranslation": [0.0, 0.43, 0],
+  "profileScale": 1,
+  "profileTranslation": [0.0, 0.43, 0],
+
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "animations": [ 
+        "q.bedrock('pod', 'ground_idle')"
+      ]
+    }
+   }
+}

@@ -1,5 +1,8 @@
 {
-    "cobblemon.species.grogu.name":     "Grogu",
+    "cobblemon.species.pod.name": "Pod",
+    "cobblemon.species.pod.desc": "wait for the suprise",   
+
+    "cobblemon.species.grogu.name": "Grogu",
     "cobblemon.species.grogu.desc": "A mysterious, Force-sensitive being with unprecedented power. Despite its young appearance, it has survived great dangers. Once hidden during a great conflict, it now travels with a protective guardian as a foundling of Mandalore.",
 
     "cobblemon.species.mc.name":    "Master Chief"
