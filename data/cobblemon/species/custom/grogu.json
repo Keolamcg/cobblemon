@@ -77,6 +77,10 @@
             "willDefendSelf":   true,
             "willDefendOwner":  true,
             "willFlee":         true
+        },
+        "swim":{
+            "canLook":          true,
+            "canSwimInWater":   true
         }
     }
 
