@@ -6,9 +6,10 @@
   "profileTranslation": [0.0, 0.50, 0],
 
   "animations": {
-    "recoil": "q.bedrock_stateful('grogu', 'recoil')",
-    "special": "q.bedrock_primary('grogu', 'special')",
-    "faint": "q.bedrock_primary('grogu', 'faint')"
+    "recoil":   "q.bedrock_stateful('grogu', 'recoil')",
+    "special":  "q.bedrock_primary('grogu', 'special')",
+    "faint":    "q.bedrock_primary('grogu', 'faint')",
+    "physical": "q.bedrock_primary('grogu', 'physical')"
   },
 
   "poses": {
@@ -24,7 +25,8 @@
       ],
       "animations": [ 
         "q.look('head')",
-        "bedrock(grogu, ground_idle)"
+        "q.bedrock('grogu', 'ground_idle')",
+        "q.bedrock('grogu', 'blink')"
       ]
     },
 
@@ -36,7 +38,8 @@
       ],
       "animations": [
         "q.look('head')",
-        "bedrock(grogu, ground_walk)"
+        "q.bedrock('grogu', 'ground_walk')",
+        "q.bedrock('grogu', 'blink')"
       ]
     },
 
@@ -47,14 +50,16 @@
         "SLEEP"
       ],
       "animations": [
-        "bedrock(grogu, sleep)"
+        "q.bedrock('grogu', 'sleep')"
+        
       ]
     },
 
     "shoulder_left": {
      "poseTypes": ["SHOULDER_LEFT"],
      "animations": [
-       "q.bedrock('grogu', 'shoulder_left')"
+       "q.bedrock('grogu', 'shoulder_left')",
+       "q.bedrock('grogu', 'blink')"
      ]
    }
 
