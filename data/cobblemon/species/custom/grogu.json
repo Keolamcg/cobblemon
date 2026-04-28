@@ -27,6 +27,8 @@
     "baseFriendship":       30,
     "evYield":              {"hp": 1},
 
+    "preEvolution": "pod",
+
     "moves": [
         "1:seismictoss",
         "1:telekinesis",

@@ -1,9 +1,9 @@
 {
   "head": "pod",
   "portraitScale": 1,
-  "portraitTranslation": [0.0, 0.43, 0],
+  "portraitTranslation": [-0.3, 0.43, 0],
   "profileScale": 1,
-  "profileTranslation": [0.0, 0.43, 0],
+  "profileTranslation": [-0.3, 0.43, 0],
 
   "poses": {
     "standing": {

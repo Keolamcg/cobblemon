@@ -8,6 +8,22 @@
             "model":    "cobblemon:grogu.geo",
             "texture":  "cobblemon:textures/pokemon/grogu/grogutexture.png",
             "layers":   []
+        },
+        {
+            "aspects": ["cosmetic_item-black_glasses" ],
+            "layers": [
+                {
+                "texture": "cobblemon:textures/pokemon/grogu/grogu_black_glasses.png"
+                }
+            ]
+        },
+        {
+            "aspects": ["cosmetic_item-wise_glasses"],
+            "layers": [
+                {
+                "texture": "cobblemon:textures/pokemon/grogu/grogu_wise_glasses.png"
+                }   
+            ]
         }
     ]
 
