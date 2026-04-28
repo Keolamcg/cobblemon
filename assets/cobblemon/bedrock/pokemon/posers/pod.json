@@ -18,6 +18,18 @@
       "animations": [ 
         "q.bedrock('pod', 'ground_idle')"
       ]
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "transformTicks": 10,
+      "poseTypes": ["SWIM"],
+      "animations": ["q.bedrock('pod', 'ground_idle')"]
+    },
+    "floating": {
+      "poseName": "floating",
+      "transformTicks": 10,
+      "poseTypes": ["FLOAT"],
+      "animations": ["q.bedrock('pod', 'ground_idle')"]
     }
    }
 }
