@@ -1,0 +1,6 @@
+{
+    "type": "cobblemon:simple_pokedex_def",
+    "id": "cobblemon:mandalore",
+    "sortOrder": 67,
+    "entries":      ["cobblemon:grogu","cobblemon:pod"]
+}

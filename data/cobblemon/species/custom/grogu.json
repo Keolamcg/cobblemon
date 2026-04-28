@@ -85,8 +85,7 @@
     },
 
     "sounds": {
-        "cry":      "cobblemon:pokemon.grogu.cry",
-        "ambient":  "cobblemon:pokemon.grogu.ambient"
+        "cry":      "cobblemon:pokemon.grogu.cry"
     }
 
 }
