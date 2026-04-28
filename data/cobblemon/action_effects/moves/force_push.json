@@ -1,0 +1,22 @@
+{
+  "timeline": [
+    {
+      "type": "animation",
+      "animation": ["force_push", "status"],
+      "delay": 0.5
+    },
+    {
+      "type": "pause",
+      "pause": 0.28
+    },
+    {
+      "type": "entity_molang",
+      "entityCondition": "q.entity.is_user == false && q.missed(q.entity.uuid) == false",
+      "expressions": ["q.play_animation(q.bedrock_stateful('force_push', 'target'))"]
+    },
+    {
+      "type": "pause",
+      "pause": 1.3
+    }
+  ]
+}
