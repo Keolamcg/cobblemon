@@ -32,11 +32,12 @@
     "moves": [
         "1:seismictoss",
         "1:telekinesis",
+        "1:force_push",
         "1:confusion",
         "1:tackle",
-        "24:Kinesis",
-        "26:Barrier",
-        "30:Extrasensory",
+        "24:kinesis",
+        "26:barrier",
+        "30:extrasensory",
         "36:storedpower",
         "40:glitzyglow",
         "48:psychic"
@@ -53,7 +54,7 @@
         "fixed":                false
     },
     "drops": {
-        "amount":               "2",
+        "amount":              "2",
         "entries":[
             {
             "item":             "minecraft:frogspawn",
@@ -67,22 +68,33 @@
             }
         ]
     },
-    "behaviour":{
-        "resting":{
-            "canSleep":         true,
-            "willSleepOnBed":   true
+    "behaviour": {
+        "resting": {
+            "canSleep":                 true,
+            "willSleepOnBed":           true
         },
-        "moving":{
-            "canLook":          true
+        "moving": {
+            "canLook":                  true,
+            "walk": {
+                "avoidsLand":           false,
+                "walkSpeed":            0.35
+            },
+            "swim": {
+                "avoidsWater":          false,
+                "swimSpeed":            0.3,
+                "canSwimInWater":       true,
+                "canBreatheUnderwater": true,
+                "canWalkOnWater":       false,
+                "canSwimInLava":        false,
+                "canWalkOnLava":        false,
+                "canBreatheUnderlava":  false,
+                "hurtByLava":           false
+            }
         },
-        "combat":{
-            "willDefendSelf":   true,
-            "willDefendOwner":  true,
-            "willFlee":         true
-        },
-        "swim":{
-            "canLook":          true,
-            "canSwimInWater":   true
+        "combat": {
+            "willDefendSelf":           true,
+            "willDefendOwner":          true,
+            "willFlee":                 true
         }
     },
 
