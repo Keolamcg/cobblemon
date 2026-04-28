@@ -1,15 +1,16 @@
-{ 
-    "implemented":              true,
-    "name":                     "pod",
-    "labels":                   ["custom"],
-    "nationalPokedexNumber":    1807,
-    "pokedex":      [
+{
+    "implemented": true,
+    "name": "pod",
+    "labels": [
+        "custom"
+    ],
+    "nationalPokedexNumber": 1807,
+    "pokedex": [
         "cobblemon.species.pod.desc"
     ],
-    "height":               10,
-    "weight":               1000,
-    
-    "primaryType":          "steel",
+    "height": 10,
+    "weight": 1000,
+    "primaryType": "steel",
     "baseStats": {
         "hp":               70,
         "attack":           5,
@@ -26,74 +27,75 @@
     "eggGroups":            ["undiscovered"],
     "baseFriendship":       30,
     "evYield":              {"hp": 1},
-
     "evolutions": [
         {
-            "id": "pod_grogu",
-            "variant": "level_up",
-            "result": "grogu",
-            "consumeHeldItem": false,
-            "learnableMoves": [],
+            "id":               "pod_grogu",
+            "variant":          "level_up",
+            "result":           "grogu",
+            "consumeHeldItem":  false,
+            "learnableMoves":   [],
             "requirements": [
-                {
-                "variant": "level",
-                "minLevel": 15
+                    {
+                    "variant":  "level",
+                    "minLevel": 15
                 }
             ]
         }
     ],
-
     "moves": [
         "1:maxguard"
     ],
     "abilities": [
         "levitate"
     ],
-
-    "shoulderMountable":        false,
-    "baseScale":                0.9,
+    "shoulderMountable":    false,
+    "baseScale":            0.9,
     "hitbox": {
-        "width":                2,
-        "height":               2,
-        "fixed":                false
+        "width":    2,
+        "height":   2,
+        "fixed":    false
     },
     "drops": {
-        "amount":               "2",
-        "entries":[
+        "amount": "2",
+        "entries": [
             {
-            "item":             "minecraft:frogspawn",
-            "quantityRange":    "1",
-            "percentage":       85
+                "item": "minecraft:frogspawn",
+                "quantityRange": "1",
+                "percentage": 85
             },
             {
-            "item":             "minecraft:cookie",
-            "quantityRange":    "1",
-            "percentage":       85
+                "item": "minecraft:cookie",
+                "quantityRange": "1",
+                "percentage": 85
             }
         ]
     },
-    "behaviour":{
-        "look":{
-            "speed": 0.2
+    "behaviour": {
+        "moving": {
+            "canLook":                  false,
+            "walk": {
+                "avoidsLand":           false
+            },
+            "swim": {
+                "avoidsWater":          false,
+                "swimSpeed":            0.3,
+                "canSwimInWater":       true,
+                "canWalkOnWater":       false,
+                "canBreatheUnderwater": true,
+                "canSwimInLava":        false,
+                "canWalkOnLava":        true,
+                "canBreatheUnderlava":  true,
+                "hurtByLava":           false
+            }
         },
-        "wander":{
-            
+        "resting": {
+            "canSleep":                 false,
+            "willSleepOnBed":           false
         },
-        "resting":{
-            "canSleep":         false,
-            "willSleepOnBed":   false
-        },
-        "moving":{
-            "canLook":          false
-        },
-        "combat":{
-            "willDefendSelf":   false,
-            "willDefendOwner":  false,
-            "willFlee":         true
-        },
-        "swim":{
-            "canLook":          false,
-            "canSwimInWater":   true
+        "combat": {
+            "willDefendSelf":           false,
+            "willDefendOwner":          false,
+            "willFlee":                 true
         }
     }
 }
